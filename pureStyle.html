@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/pureStyle.css?123123z" />
+    <style type="text/css">
+        body {
+            background-color: #f0eff6;
+        }
+
+        #main {
+            text-align: center;
+        }
+
+        .board {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .mask-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .mask-container-pc {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .mask {
+            margin: 6px 6px 6px 6px;
+            background-color: #ffffff;
+            border-radius: 16px;
+            box-shadow: 6px 6px 10px 3px #d3d3d3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mask-pc {
+            margin: 6px 6px 6px 6px;
+            background-color: #ffffff;
+            border-radius: 16px;
+            box-shadow: 6px 6px 10px 3px #d3d3d3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mask:hover {
+            cursor: pointer;
+            background-color: #fffff6;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="nav">
+            <div class="navbar">
+                <img id="navIcon" src="img/yicolor.gif">
+                <img id="menuIcon" src="img/menu.png">
+                <h3 id="webname"></h3>
+            </div>
+            <div id="navBox">
+                <li><a href="">page</a></li>
+                <li><a href="">page1</a></li>
+                <li class="active"><a href="">page2</a></li>
+                <li class="active"><a href="">page3</a></li>
+            </div>
+            <div class="PCnavBox-container">
+                <div id="PCnavBox">
+                    <div class="PCnavItem"><img src="img/xin.gif" class="PCnavItemImg"></div>
+                    <div class="PCnavItem"><img src="img/ke.gif" class="PCnavItemImg"></div>
+                    <div class="PCnavItem"><img src="img/shu.gif" class="PCnavItemImg"></div>
+                    <div class="PCnavItem"><img src="img/hua.gif" class="PCnavItemImg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div class="board">
+            <div class="mask-container">
+                <div class="mask">
+                    <img src="">
+                    <svg class='svg-icon' t="1572004508430" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="4661" width="50%" height="200">
+                        <path
+                            d="M791.272727 1000.727273H232.727273a162.909091 162.909091 0 0 1-162.909091-162.909091V186.181818a162.909091 162.909091 0 0 1 162.909091-162.909091h558.545454a162.909091 162.909091 0 0 1 162.909091 162.909091v651.636364a162.909091 162.909091 0 0 1-162.909091 162.909091zM232.727273 69.818182a116.363636 116.363636 0 0 0-116.363637 116.363636v651.636364a116.363636 116.363636 0 0 0 116.363637 116.363636h558.545454a116.363636 116.363636 0 0 0 116.363637-116.363636V186.181818a116.363636 116.363636 0 0 0-116.363637-116.363636z"
+                            fill="#1296db" p-id="4662"></path>
+                        <path
+                            d="M721.454545 535.272727h-139.636363a93.090909 93.090909 0 0 1-93.090909-93.090909v-139.636363a93.090909 93.090909 0 0 1 93.090909-93.09091h139.636363a93.090909 93.090909 0 0 1 93.09091 93.09091v139.636363a93.090909 93.090909 0 0 1-93.09091 93.090909z m-139.636363-279.272727a46.545455 46.545455 0 0 0-46.545455 46.545455v139.636363a46.545455 46.545455 0 0 0 46.545455 46.545455h139.636363a46.545455 46.545455 0 0 0 46.545455-46.545455v-139.636363a46.545455 46.545455 0 0 0-46.545455-46.545455zM232.727273 209.454545h139.636363v46.545455h-139.636363zM232.727273 349.090909h139.636363v46.545455h-139.636363zM232.727273 488.727273h139.636363v46.545454h-139.636363zM232.727273 628.363636h558.545454v46.545455H232.727273zM232.727273 768h349.090909v46.545455H232.727273z"
+                            fill="#1296db" p-id="4663"></path>
+                    </svg>
+                    乡土
+                </div>
+                <div class="mask"></div>
+            </div>
+
+            <div class="mask-container">
+                <div class="mask"></div>
+                <div class="mask"></div>
+            </div>
+
+            <div class="mask-container">
+                <div class="mask"></div>
+                <div class="mask"></div>
+            </div>
+
+            <div class="mask-container-pc">
+                <div class="mask-pc">
+                    <svg class='svg-icon' t="1572004508430" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="4661" width="50%" height="200">
+                        <path
+                            d="M791.272727 1000.727273H232.727273a162.909091 162.909091 0 0 1-162.909091-162.909091V186.181818a162.909091 162.909091 0 0 1 162.909091-162.909091h558.545454a162.909091 162.909091 0 0 1 162.909091 162.909091v651.636364a162.909091 162.909091 0 0 1-162.909091 162.909091zM232.727273 69.818182a116.363636 116.363636 0 0 0-116.363637 116.363636v651.636364a116.363636 116.363636 0 0 0 116.363637 116.363636h558.545454a116.363636 116.363636 0 0 0 116.363637-116.363636V186.181818a116.363636 116.363636 0 0 0-116.363637-116.363636z"
+                            fill="#1296db" p-id="4662"></path>
+                        <path
+                            d="M721.454545 535.272727h-139.636363a93.090909 93.090909 0 0 1-93.090909-93.090909v-139.636363a93.090909 93.090909 0 0 1 93.090909-93.09091h139.636363a93.090909 93.090909 0 0 1 93.09091 93.09091v139.636363a93.090909 93.090909 0 0 1-93.09091 93.090909z m-139.636363-279.272727a46.545455 46.545455 0 0 0-46.545455 46.545455v139.636363a46.545455 46.545455 0 0 0 46.545455 46.545455h139.636363a46.545455 46.545455 0 0 0 46.545455-46.545455v-139.636363a46.545455 46.545455 0 0 0-46.545455-46.545455zM232.727273 209.454545h139.636363v46.545455h-139.636363zM232.727273 349.090909h139.636363v46.545455h-139.636363zM232.727273 488.727273h139.636363v46.545454h-139.636363zM232.727273 628.363636h558.545454v46.545455H232.727273zM232.727273 768h349.090909v46.545455H232.727273z"
+                            fill="#1296db" p-id="4663"></path>
+                    </svg>
+                </div>
+                <div class="mask-pc"></div>
+                <div class="mask-pc"></div>
+            </div>
+
+            <div class="mask-container-pc">
+                <div class="mask-pc"></div>
+                <div class="mask-pc"></div>
+                <div class="mask-pc"></div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+
+    </div>
+    <script type="text/javascript">
+        var showboard;//显示移动端面板
+        var showpcboard;//显示PC面板
+        var clientWidth = document.body.clientWidth;
+        var maskheight = clientWidth * 0.32;
+        var maskwidth = maskheight;
+        var pcmaskheight = clientWidth * 0.23;
+        var pcmaskwidth = pcmaskheight;
+        var svgiconwidth = maskwidth * 0.50;
+        if (clientWidth > 600) {
+            showboard = 'none';
+            showpcboard = '';
+        } else {
+            showpcboard = 'none';
+            showboard = '';
+        }
+        $(document).ready(function () {
+            //when loading the page, this is used to decide which
+            //navigation menu should be used
+            //If the clientWidth is bigger than 600 then
+            //display PCnavBox
+            //else
+            //display navBox
+            if (clientWidth > 600) {
+                $("#navBox").css("display", "none");
+                $("#menuIcon").css("display", "none");
+                $("#PCnavBox").css("display", "block");
+            }
+            else {
+                $("#menuIcon").css("display", "block");
+                $("#PCnavBox").css("display", "none");
+            }
+            $("#menuIcon").click(function () {
+                $("#navBox").slideToggle('slow');
+            });
+            //Set the background color of navigation url of active page 
+            //as black. Usualyly, the active url in one page only appears once
+            $(".active").css("background-color", "black");
+            $(".mask-container").css("display", showboard);
+            $(".mask-container-pc").css("display", showpcboard);
+            $(".mask-pc").css("width", pcmaskheight);
+            $(".mask-pc").css("height", pcmaskwidth);
+            $(".mask").css("width", maskwidth);
+            $(".mask").css("height", maskwidth);
+            $(".svg-icon").css("width", svgiconwidth);
+            $(".svg-icon").css("height", svgiconwidth);
+        });
+    </script>
+    <script type="text/javascript">
+        //When the size of clientWidth is changed, this function is 
+        //used to decide which navbox should be displayed and adjust the size of masks
+        window.onresize = function () {
+            var showboard;//显示移动端面板
+            var showpcboard;//显示PC面板
+            //Get the client width
+            var clientWidth = document.body.clientWidth;
+            var maskheight = clientWidth * 0.32;// mask width in non-PC device
+            var maskwidth = maskheight;//the height of the mask is equal to is width
+            var pcmaskheight = clientWidth * 0.23;
+            var pcmaskwidth = pcmaskheight;
+            var svgiconwidth = maskwidth * 0.50;
+
+            var clientWidth = document.body.clientWidth;
+            if (clientWidth > 600) {
+                showboard = 'none';
+                showpcboard = '';
+            } else {
+                showpcboard = 'none';
+                showboard = '';
+            }
+            $(".mask-container").css("display", showboard);
+            $(".mask-container-pc").css("display", showpcboard);
+            $(".mask-pc").css("width", pcmaskheight);
+            $(".mask-pc").css("height", pcmaskwidth);
+            $(".mask").css("width", maskwidth);
+            $(".mask").css("height", maskwidth);
+            $(".svg-icon").css("width", svgiconwidth);
+            $(".svg-icon").css("height", svgiconwidth);
+            if (clientWidth > 600) {
+                $("#navBox").css("display", "none");
+                $("#menuIcon").css("display", "none");
+                $("#PCnavBox").css("display", "block");
+            }
+            else {
+                $("#menuIcon").css("display", "block");
+                $("#PCnavBox").css("display", "none");
+            }
+        } 
+    </script>
+</body>
+</html>
