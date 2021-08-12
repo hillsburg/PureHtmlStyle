@@ -1,0 +1,78 @@
+/*padding and margin*/
+*{
+    margin:0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    background-color: black;
+}
+.nav{
+    background-color: #3D3B3B;
+
+}
+.navbar{
+    height: 69px;
+    width: 100%;
+    vertical-align: middle;
+}
+/*The icon of the whole web, usually is the logo of web*/
+#navIcon{
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+    width: 60px;
+    float: left;
+}
+/*The icon of login */
+#menuIcon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    width: 56px;
+}
+/*This part hass not been implimented yet*/
+#webname{
+    color: white;
+}
+/*The value of "display" property of navBox should always be "none".*/
+/*Only when the menuIcon is clicked, its value is "block"*/
+#navBox{
+    display: none;
+}
+/*The style of the items of page navigator*/
+#navBox li{
+    background-color: #696969;
+    line-height: 36px;
+    list-style: none;
+    border: 1px solid #0F3B3B;
+    text-align: center;
+}
+#navBox a{
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+.PCnavBox-container{
+    text-align: center;
+}
+#PCnavBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.PCnavItem{
+    width: 23%;
+    display: inline-block;
+    background-color: #5F9EA0;
+    cursor: pointer;
+}
+.PCnavItem:hover{
+    background-color: #00CED1;
+}
+.PCnavItemImg{
+    width: 60px;
+}
